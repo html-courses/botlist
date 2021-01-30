@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: white;
+    background: #36393F;
+    font-family: sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #36393F;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+    opacity: 90%;
+}
+.info {
+    margin-top: 1.5rem;
+    background: #2F3036;
+    padding: 2rem;
+}
+
+/* Float four columns side by side */
+.column {
+  margin-top: 2em;
+  width: 22.9%;
+  padding: 0 10px;
+  float: left;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 10px;
+}
+
+.abot {
+    text-decoration: none;
+    color: white;
+    background: #2F3036;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.binfo {
+    margin-bottom: 4px;
+}
+
+.abot:hover {
+    text-decoration: none;
+    padding: 7px;
+}
+
+.errb {
+    text-decoration: none;
+    color: white;
+    background: #2F3036;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.errb:hover {
+    text-decoration: none;
+    padding: 13px;
+}
+
+.erri {
+    margin-bottom:  13px;
+}
+
+.err {
+    margin-top: 9rem;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.adbtn {
+  background-color: #4F515B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.adbtn:hover {
+  background-color: #464851;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2F3036;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
